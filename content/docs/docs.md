@@ -20,6 +20,7 @@ However, each municipality faces specific challenges which SmartTerra intends to
 
 Municipalities services such as water supply, waste water removal, solid waste removal, etc are delivered to a geographically distributed population.
 
+using data to improve efficiency, reduce costs and make better use of resources
 
 Mark of productivity: direct wrench time.Productivity isn’t an individual problem. The problem is managing the process.
 
@@ -38,19 +39,23 @@ In the following sections we will discuss some details of the water supply situa
 
 ### Kakinada
 
-Lets take a look at how Kakinada, a city of about 3.5 lakhs in Andhra Pradesh, handles its water supply.
+Lets take a look at how Kakinada, a city of about 3.5 lakhs in Andhra Pradesh, handles its water supply. This section gives an overview of the infrastructure, processes being followed and the scope for improvement.
 
 Kakinada's main source of raw water is the Godavari Canal through summer storage tanks. The present water supply is 45 MLD with a per capita supply of 107LPCD. NRW was 35% in 2015 and is expected to be reduced to 20% in 2016 because of the network renewal as part of the APMDP scheme. 
 
-Kakinada's Smart City applications can be found at these links - [SCP](https://www.dropbox.com/s/a5i50ym7rhjxkaa/kakinadaSCP.pdf?dl=0) and [Annexure](https://www.dropbox.com/s/7r4pdr9vkxic0xz/KakinadaAnnexures.pdf?dl=0).
+Kakinada supplies water twice daily; between 6am-8am and 5pm-6.30pm. Kakinada treats 0% of its wastewater/sewage and all of it is let out into the Bay of Bengal. Since there are quite a few industrial and institutional customers and since there is reasonably decent surface supply, Kakinada makes an operational profit with water.
+
+Kakinada's Smart City applications can be found at these links - [SCP](https://www.dropbox.com/s/a5i50ym7rhjxkaa/kakinadaSCP.pdf?dl=0) and [Annexure](https://www.dropbox.com/s/7r4pdr9vkxic0xz/KakinadaAnnexures.pdf?dl=0). 
 
 **Existing Network**
 
-Kakinada has approx. 60,000 households in 50 wards. The municipality has 1200 borewells and two summer/intermediate storage tanks at Aratlakatta (1582ML capacity) and Sambamurthy (821ML capacity) both of which are fed from the Godavari/Kakinada canal, an open-surface source. 
+Kakinada has approx. 60,000 households in 50 wards. The municipality has 1200 borewells and two summer/intermediate storage tanks at Aratlakatta (1582ML capacity) and Sambamurthy (821ML capacity) which are fed from the Godavari River via the Kakinada and Samalkota canals, an open-surface source. The raw water is treated at the Water Treatment Plant (WTP) at the municipality water works of which the primary settling tank is shown below. The WTP has two sets of Rapid Sand Filter beds. 
+
+![Townhouse Settling Tank](./content/images/townhouse_settlingtank.jpg)
 
 There are 9 pump stations with each containing 2-4 pumps each of 60-240HP capacity. There is a diesel generator available at each of the pump stations.
 
-Water is pumped from the storage tanks into sumps and elevated storage reservoirs.
+Water is pumped from the storage tanks into the WTP and then on to sumps and elevated storage reservoirs (ELSRs). There are 15 ELSRs which service the 50 wards.
 
 There are 4 tankers of 10,000L capacity with the municipality and 6-8 private tankers which are outsourced by the municipality or are filled by the municipality. On a given summer day of May 5th 2016, there were 21 trips carrying a total of .11MLD made by the 4 municipal tankers, 58 trips carrying a total of .44MLD made by 6 private tankers. 
 
@@ -60,6 +65,26 @@ The municipality tracks the amount of water in the summer storage tanks on a dai
 These websites contain the details for sustainability periods, deficit reports, statuses of pipelines, borewells, etc.
 
 The Kakinada municipality enters a daily summary into the [Urban Water Supply](http://uwsis.cgg.gov.in) website which is then aggregated over all the cities into the AP PHMED website mentioned above. 
+
+Every day the level of water in the two SS tanks is manually monitored and entered into registers as well as the UWSIS website. The register is shown below. The sustainability calculations are then done by simply determining the amount of water remaining in the tank and the assumed constant demand.
+
+![SS Tank Capacity](./content/images/SS_tank_level.jpg)
+
+The filtering capacity of the filter beds is monitored at every hour of the day with remarks about the chlorination, backwash, etc.
+
+![Filter Bed Monitoring](./content/images/WTP_filter_capacities.jpg)
+
+The duty cycle (amount of ON time) for the pumps in various pump houses is also monitored. Downtime of pumps because of maintenance is also noted in the UWSIS website. Pumps are usually in pairs and do breakdown frequently because some of them have been installed in the 1970s. The register entries for the pump ON times  and the status of the ELSRs that they each service are shown below.
+
+![Pump Duty Cycle](./content/images/pump_dutycycle.jpg)
+
+Listed below are the ELSRs and their capacities (alongwith the number of samples taken for the Residual Chlorine test). 
+
+![ELSRs Capacity and RC Samples](./content/images/ELSRs_quality.jpg)
+
+In addition to the daily RC sampling at the ELSRs, daily sampling is undertaken at 270 places geographically distributed in the city. The geographical spread should ideally be completely random but depends a lot on the 10 or so linemen under the purview of the Tap Inspectors. In addition to the daily sampling of the RC, there is periodic quality testing of other parameters as well and these too are entered into a register shown below.
+
+![Periodic Quality Testing](./content/images/Quality_Testing.jpg) 
 
 **Smart City Plans**
 **SmartTerra** 
