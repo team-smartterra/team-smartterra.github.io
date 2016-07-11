@@ -20,10 +20,6 @@ However, each municipality faces specific challenges which SmartTerra intends to
 
 Municipalities services such as water supply, waste water removal, solid waste removal, etc are delivered to a geographically distributed population.
 
-using data to improve efficiency, reduce costs and make better use of resources
-
-Mark of productivity: direct wrench time.Productivity isn’t an individual problem. The problem is managing the process.
-
 
 Example Cities
 --------------
@@ -96,19 +92,28 @@ Existing Systems
 ----------------
 
 
-Smart City Iniative
+Smart City Initiative
 -------------------
 
 
-Smart Urban Platforms
+Smart Urban Data Platforms
 =====================
 
-Describing what open data, open innovation and smart urban platforms mean.
+The goal of a smart city is to improve the quality of urban life by using technology to improve the efficiency of services, reduce costs, improve resource utilization and most importantly, meet residents’ needs. For urban India, where the resources are at a shortage amidst high demand, smart cities need to have another important objective - transparency and equitable distribution of services. These objectives implicitly mean improved environmental outcomes.
 
-SmartTerra
-----------
+In order to improve the efficiency of their services, smart cities will need to organize their services into clearly defined processes and tasks. They will have to organize their assets and workforce while assigning well-defined responsibilities. The spread out geographical area should be organized into manageable chunks. The citizens to whom the services are being provided should be mapped to the municipalities assets, workforce and geographical entities providing the service. A municipal service being provided to a citizen and the citizen's feedback about the service should be easily tracked through the various resources and hierarchies of the municipality. 
+  
+The city cannot improve what it cannot measure. Hence, it needs to add visibility about the performance and costs to each of the service's providers, the service's processes and resources and the area the service is provided in. Visibility immediately improves service levels.
 
-GIS+Data
+The data that the city collects should easily map to the various resources and hierarchies of the municipality. The data being collected can be from simple surveys and mobile apps used by the municipal staff or citizens or can be from complex and expensive but automated sensors and devices. The source of the data doesn't matter as much as the process being illuminated by the data. The data thus collected should be put to use in reducing costs and improving resource utilization by analyzing each of the municipal processes in the service delivery and helping in the operational and managerial decision making.
+
+The data platform should enable the municipality to interact directly with the citizens and to explain the services transparently and obtain feedback. Most importantly the data platform should enable innovation, both from within the municipality as well as the wider community.
+
+
+SmartTerra is developing an open source urban data platform for municipal services. The first service to be developed will be fresh water supply. The features of the platform are described below in the context of water supply.
+
+
+CityView
 --------
 
 Apps+Analytics
