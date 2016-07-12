@@ -116,8 +116,16 @@ SmartTerra is developing an open source urban data platform for municipal servic
 CityView
 --------
 
+The smart water platform should be able to take in description of 
+
+
+CityData
+--------  
+
+
 Apps+Analytics
 --------------
+
 
 Devices
 -------
