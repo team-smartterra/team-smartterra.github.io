@@ -130,7 +130,7 @@ PowWow                | Our suite of applications includes the Pump Monitor™, 
 WatrHub               | By harnessing the power of data and software, we enable young, innovative water technology startups all the way up to $1B+ equipment manufacturers, make empowered decisions about where and when to sell & market their water & wastewater treatment solutions.
 Wellntel              | With Wellntel's groundwater level sensing system you'll have groundwater information and trends at your fingertips: you can see what happening with your groundwater, if your well and your pump are running as they should, or if they need attention from an expert. You can see how levels in your well change seasonally or annually, which direction the water level is heading, and you can set alerts to be notified if the level is getting low or your pump or water system needs attention.
 Cadisfly              | Indian water quality non-profit but importantly uses Akovo Flow which can be used by SmartTerra for the Android+GPS+Data
-Fluid                 | Kickstarter+SF company measures water usage and leakage via ultrasonic. From the kickstarter seems like they do only copper pipe and that too 3/4".
+Fluid                 | Kickstarter+SF company measures water usage and leakage via ultrasonic. From the kickstarter seems like they do only copper pipe and that too 3/4inch.
 Calliope              | Water metering for smart homes. https://www.youtube.com/watch?v=dlGfDFqlayA
 Smarterhomes          | Bangalore based company with water meters. 
  
@@ -161,12 +161,12 @@ A few ways to look at data.
 - DataHero: 
 
 
-Apps+Analytics
---------------
+CityApps
+--------
 
 
-Devices
--------
+CityDevices
+-----------
 
 
 Team & Mission
