@@ -144,6 +144,9 @@ As can be seen from the examples of Kakinada, Hyderabad and Nagpur, cities need 
 
 The SmartTerra platform can be broken down into four chunks - CityView, CityData, CityApps and CityDevices. The platform is a combination of a features usually found in GIS platforms, ERP systems, IoT platforms and (big) data visualization and analytics. The platform is designed to work with SCADA systems, IOT devices, commonly used SQL databases, etc. 
 
+For the explanation of the features below, lets consider the network below.
+
+![Network Example](./content/images/network_example.jpeg)
 
 CityView
 --------
