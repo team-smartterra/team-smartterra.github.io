@@ -21,17 +21,37 @@ However, each municipality faces specific challenges which SmartTerra intends to
 Municipalities services such as water supply, waste water removal, solid waste removal, etc are delivered to a geographically distributed population.
 
 
-Example Cities
---------------
+Smart Urban Platforms
+---------------------
 
-The smart city documents here X provide a lot of context.
+The goal of a smart city is to improve the quality of urban life by using technology to improve the efficiency of services, reduce costs, improve resource utilization and most importantly, meet residents’ needs. For urban India, where the resources are at a shortage amidst high demand, smart cities need to have another important objective - transparency and equitable distribution of services. These objectives implicitly mean improved environmental outcomes.
 
-In addition the PEARL initiative of the 
+In order to improve the efficiency of their services, smart cities will need to organize their services into clearly defined processes and tasks. They will have to organize their assets and workforce while assigning well-defined responsibilities. The spread out geographical area should be organized into manageable chunks. The citizens to whom the services are being provided should be mapped to the municipalities assets, workforce and geographical entities providing the service. A municipal service being provided to a citizen and the citizen's feedback about the service should be easily tracked through the various resources and hierarchies of the municipality. 
+  
+The city cannot improve what it cannot measure. Hence, it needs to add visibility about the performance and costs to each of the service's providers, the service's processes and resources and the area the service is provided in. Visibility immediately improves service levels.
+
+The data that the city collects should easily map to the various resources and hierarchies of the municipality. The data being collected can be from simple surveys and mobile apps used by the municipal staff or citizens or can be from complex and expensive but automated sensors and devices. The source of the data doesn't matter as much as the process being illuminated by the data. The data thus collected should be put to use in reducing costs and improving resource utilization by analyzing each of the municipal processes in the service delivery and helping in the operational and managerial decision making.
+
+The data platform should enable the municipality to interact directly with the citizens and to explain the services transparently and obtain feedback. Most importantly the data platform should enable innovation, both from within the municipality as well as the wider community.
+
+
+SmartTerra is developing an open source urban data platform for municipal services. The first service to be developed will be fresh water supply. The features of the platform are described below in the context of water supply.
+
+
+
+India Smart Cities
+------------------
+
+The smart city documents for the [first phase of the smart city challenge](http://smartcities.gov.in/Cities_Profile.aspx) provide a lot of context.
+
+In addition the PEARL initiative of the NIUA has published this document for [best practices in water supply and sanitation.](http://pearl.niua.org/sites/default/files/books/GP-IN2_WATSAN.pdf) 
 
 In the following sections we will discuss some details of the water supply situation in Kakinada, Hyderabad and Nagpur. 
 
 
 ### Hyderabad
+
+Coming soon!
 
 ### Kakinada
 
@@ -87,17 +107,41 @@ In addition to the daily RC sampling at the ELSRs, daily sampling is undertaken 
 
 ### Nagpur
 
+Coming soon!
 
-Existing Systems
-----------------
+
+Existing Water Platforms
+-----------------------
+
+The below are summaries for water analytics companies.
+
+Company | Brief Description
+------- | -----------------
+IBM Intelligent Water | IBM® Intelligent Water software delivers smarter water management through insights from data to help utilities manage pressure, detect leaks, reduce water consumption, mitigate sewer overflow, and better manage their water infrastructure, assets and operations. This software uses advanced data management, visualization, correlation and collaboration technologies to transform the vast amounts of disparate data received from various devices (including metering systems), assets, systems and stakeholders into actionable information that can guide executive and operational decision-making. Intelligent Water is a water management platform that enhances infrastructure visibility to deliver an advanced level of situational awareness, event and incident management, informed decision-making and collaboration among stakeholders.
+AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advanced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
+Ayyeka                | Supplies water flow, quality, level, etc kits. Seems like primarily a hardware company. Ayyeka provides cyber-secure, plug-and-play, remote monitoring solutions designed for various markets
+Apana                 | (was Kirkland Analytics)  Smart sensors placed in select areas of your facility scan the water infrastructure around the clock capturing high resolution data down to the second. These sensors send data to a secure, cloud-hosted analytics engine that continuously looks for patterns and discrepancies to isolate waste events across 1000’s of failure points. When waste is detected, mechanical failures and operational breakdowns are identified at the source. Staff is instantly notified with actionable guidance. Alerts contain automated step- by-step instructions telling operators that there is a problem, where it is, and how to resolve it. Managers get insights to improve processes.
+Golagoon              | Lagoon sensors take the current meter infrastructure of the facility or commercial site and make it smart. The meters will be happy to join the Industrial Internet of Things. Lagoon's learning algorithms forecast your water usage, finds anomalies, such as leaks, and identifies inefficiencies, while providing insight and control over your water usage.
+DropCountr            | Dropcountr connects people and their utilities on the mobile devices they use everyday. Our unique mobile and web applications help water utilities and their customers save water, save money and save time. In a world dominated by mobile apps, we connect utilities and consumers on mobile, as well as web and paper to help everyone conserve water. Utilities can deliver customized drought and water budget messages instantly. Users are notified of damaging leaks immediately.
+TaKaDu                | TaKaDu is a leading software provider of Integrated Event Management solutions for the water sector, empowering utilities to manage their networks efficiently. Based on big data analytics, TaKaDu's IoT cloud-based solution enables water utilities to analyze and manage the full life-cycle of network events, such as leaks, bursts, water pressure issues, water quality and faulty assets. Using raw data from multiple sources, TaKaDu helps utilities detect problems (‘events’) early, reduce water loss, shorten repair cycles and improve customer service. The technology offers in-depth visibility and quick insights into every type of event, facilitating smarter decisions.
+WaterSmart Software   | "We use utility meter data to better communicate with residential customers and help them save water, energy, and money. Water suppliers also receive analytics that reveal insights into customer consumption and program participation trends. 1. Program performance reporting 2. Customer segmentation and geospatial analytics 3. Customer Relationship Management (CRM) capabilities 4. Rebate program participation metrics 5. Leak and high use alerts 6. Manual read, AMR & AMI compatible 7. Reduced staff time"
+Valor Water           | Valor’s mission is to transform utility data flows worldwide into actionable decision making through innovative technology. One solution in the suite is SMART Targets for Conservation. We build a data connector to your system and then display results through a secure web-based client-specific portal. Results are based on the latest water consumption behavior and updated on a daily, weekly, or monthly basis, depending on meter data read frequency and client needs. Client users can log in and interact with the functionality on the portal to generate reports for various client audiences, including executive reports, progress and evaluation reports for individual and aggregate residential and commercial customers, and reports summarizing outcomes, cost, and ROI for specific campaign conservation efforts.
+PowWow                | Our suite of applications includes the Pump Monitor™, which provides automated water records by leveraging existing smart meters from power utilities. It protects farmers from the operational downsides of anomalies such as leaks or falling water tables. The Irrigation Advisor™ simplifies irrigation scheduling solution by integrating data from the cloud (weather data and aerial images) and from local farm records (nutrient application and on-site sensors). Growers receive simple text messages in the field, not more data at the office.
+WatrHub               | By harnessing the power of data and software, we enable young, innovative water technology startups all the way up to $1B+ equipment manufacturers, make empowered decisions about where and when to sell & market their water & wastewater treatment solutions.
+Wellntel              | With Wellntel's groundwater level sensing system you'll have groundwater information and trends at your fingertips: you can see what happening with your groundwater, if your well and your pump are running as they should, or if they need attention from an expert. You can see how levels in your well change seasonally or annually, which direction the water level is heading, and you can set alerts to be notified if the level is getting low or your pump or water system needs attention.
+Cadisfly              | Indian water quality non-profit but importantly uses Akovo Flow which can be used by SmartTerra for the Android+GPS+Data
+Fluid                 | Kickstarter+SF company measures water usage and leakage via ultrasonic. From the kickstarter seems like they do only copper pipe and that too 3/4".
+Calliope              | Water metering for smart homes. https://www.youtube.com/watch?v=dlGfDFqlayA
+Smarterhomes          | Bangalore based company with water meters. 
+ 
 
 
 Smart City Initiative
--------------------
+---------------------
 
 
-Smart Urban Data Platforms
-=====================
+Smart Urban Water Platform
+==========================
 
 The goal of a smart city is to improve the quality of urban life by using technology to improve the efficiency of services, reduce costs, improve resource utilization and most importantly, meet residents’ needs. For urban India, where the resources are at a shortage amidst high demand, smart cities need to have another important objective - transparency and equitable distribution of services. These objectives implicitly mean improved environmental outcomes.
 
@@ -116,11 +160,14 @@ SmartTerra is developing an open source urban data platform for municipal servic
 CityView
 --------
 
-The smart water platform should be able to take in description of 
+A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections.  
 
 
 CityData
 --------  
+A few ways to look at data.
+- Excel
+- DataHero: 
 
 
 Apps+Analytics
