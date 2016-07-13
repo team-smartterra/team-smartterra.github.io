@@ -136,31 +136,22 @@ Smarterhomes          | Bangalore based company with water meters.
  
 
 
-Smart City Initiative
----------------------
-
 
 Smart Urban Water Platform
 ==========================
 
-The goal of a smart city is to improve the quality of urban life by using technology to improve the efficiency of services, reduce costs, improve resource utilization and most importantly, meet residents’ needs. For urban India, where the resources are at a shortage amidst high demand, smart cities need to have another important objective - transparency and equitable distribution of services. These objectives implicitly mean improved environmental outcomes.
+As can be seen from the examples of Kakinada, Hyderabad and Nagpur, cities need an open data platform which provides a destination database to organize the various data sets involved in a urban water supply and to then make intelligent decisions based on the data. SmartTerra is such a platform and in the below sections we describe the platform and its features.
 
-In order to improve the efficiency of their services, smart cities will need to organize their services into clearly defined processes and tasks. They will have to organize their assets and workforce while assigning well-defined responsibilities. The spread out geographical area should be organized into manageable chunks. The citizens to whom the services are being provided should be mapped to the municipalities assets, workforce and geographical entities providing the service. A municipal service being provided to a citizen and the citizen's feedback about the service should be easily tracked through the various resources and hierarchies of the municipality. 
-  
-The city cannot improve what it cannot measure. Hence, it needs to add visibility about the performance and costs to each of the service's providers, the service's processes and resources and the area the service is provided in. Visibility immediately improves service levels.
-
-The data that the city collects should easily map to the various resources and hierarchies of the municipality. The data being collected can be from simple surveys and mobile apps used by the municipal staff or citizens or can be from complex and expensive but automated sensors and devices. The source of the data doesn't matter as much as the process being illuminated by the data. The data thus collected should be put to use in reducing costs and improving resource utilization by analyzing each of the municipal processes in the service delivery and helping in the operational and managerial decision making.
-
-The data platform should enable the municipality to interact directly with the citizens and to explain the services transparently and obtain feedback. Most importantly the data platform should enable innovation, both from within the municipality as well as the wider community.
-
-
-SmartTerra is developing an open source urban data platform for municipal services. The first service to be developed will be fresh water supply. The features of the platform are described below in the context of water supply.
+The SmartTerra platform can be broken down into four chunks - CityView, CityData, CityApps and CityDevices. The platform is a combination of a features usually found in GIS platforms, ERP systems, IoT platforms and (big) data visualization and analytics. The platform is designed to work with SCADA systems, IOT devices, commonly used SQL databases, etc. 
 
 
 CityView
 --------
 
-A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections.  
+A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections. Customers, their meters/accounts and their feedback will be geographically spread out. The transmission/bulk and distribution networks will be geographically spread out 
+
+Most municipalities in India have mapped their network into GIS databases using tools such AutoCad, ArcGIS and more recently Google Earth.  
+
 
 
 CityData
@@ -180,5 +171,8 @@ Devices
 
 Team & Mission
 ==============
+
+Coming soon!
+
 
 
