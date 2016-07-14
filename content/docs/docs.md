@@ -160,7 +160,9 @@ As can be seen from the examples of Kakinada, Hyderabad and Nagpur, cities need 
 The SmartTerra platform can be broken down into four modules - CityView, CityData, CityApps and CityDevices. The platform is a combination of a features usually found in GIS platforms, ERP systems, IoT platforms and (big) data visualization and analytics. The platform is designed to work with SCADA systems, IOT devices, commonly used SQL databases, etc. 
 
 For the explanation of the features below, lets consider the network below.
-![Network Example](./content/images/Smartterra_Docs_001.jpeg)
+
+![Network Example](./content/images/Smartterra_Docs.001.jpeg)
+
 There are 3 wards - Ward 1, Ward 2 and Ward 3 - with boundaries available in a KML description. 
 There is a Elevated Storage Reservoir in Ward 3 which has an incoming bulk pipeline and an outgoing distribution pipeline network. Both the inlet and the outlet of the ELSR are metered with a flowmeter.
 The distribution network is present in all 3 wards and feeds 4 domestic connections in Ward 3 and 2 domestic connections in Ward 1. The distribution network in Ward 2 feeds street standposts. Each of the domestic connections is metered. There is no metering for the standposts.
