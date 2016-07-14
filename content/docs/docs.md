@@ -142,6 +142,7 @@ Water boards can also use recent efforts to bring the civic/urban GIS informatio
 
 Company | Brief Description
 ------- | -----------------
+Carto                 | CARTO is an open, powerful, and intuitive platform for discovering and predicting the key insights underlying the location data in our world.
 AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advanced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
 LocalData             | LocalData makes digital tools to collect and analyze information about urban infrastructure. LocalData's code is available on GitHub and can be leveraged for SmartTerra's backend as well as App. LocalData uses JavaScript and Node.js
 Neighborland          | Civic insights platform with a lot of mapping and survey capabilities. Based on Shareabouts, the popular open source tool for gathering insights directly on a map.
@@ -160,21 +161,31 @@ The SmartTerra platform can be broken down into four modules - CityView, CityDat
 
 For the explanation of the features below, lets consider the network below.
 
-![Network Example](./content/images/network_example.jpeg)
+![Network Example](./content/images/Smartterra_Docs.001.jpeg)
+
+There are 3 wards - Ward 1, Ward 2 and Ward 3 - with boundaries available in a KML description. 
+There is a Elevated Storage Reservoir in Ward 3 which has an incoming bulk pipeline and an outgoing distribution pipeline network. Both the inlet and the outlet of the ELSR are metered with a flowmeter.
+The distribution network is present in all 3 wards and feeds 4 domestic connections in Ward 3 and 2 domestic connections in Ward 1. The distribution network in Ward 2 feeds street standposts. Each of the domestic connections is metered. There is no metering for the standposts.
+
+A simple use case would be:
+
+- Visualize the water supply network and its elements on a city map. Provide easy exploration of information for each element for e.g. connections in a ward, pipeline material, etc.
+- Provide a visualization of water consumed in each ward for today, average consumption for the week/month/year, etc
+- Provide a way to update the geotags of some elements in the network
+- Analyze leakages
+- Provide a way for complaints and tasks to be assigned to network elements
 
 CityView
 --------
 
 A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections. Customers, their meters/accounts and their feedback will be geographically spread out. The transmission/bulk and distribution networks will be geographically spread out. Most municipalities in India have mapped their network into GIS databases using tools such AutoCad, ArcGIS and more recently Google Earth. But this GIS information remains siloed and is often not available for daily operational use in the field. 
 
-The SmartTerra platform will have a CityView module which will take in the GIS information and related datasets.
+The SmartTerra platform will have a CityView module which will take in the GIS information and related datasets. The CityView module is for organizing the data and for a simple visualization. 
+
 
 
 CityData
 --------  
-A few ways to look at data.
-- Excel
-- DataHero: 
 
 
 CityApps
