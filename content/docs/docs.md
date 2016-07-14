@@ -161,7 +161,7 @@ The SmartTerra platform can be broken down into four modules - CityView, CityDat
 
 For the explanation of the features below, lets consider the network below.
 
-![Network Example](./content/images/Smartterra_Docs.001.jpeg)
+![Network Example](./content/images/network_example.jpeg)
 
 There are 3 wards - Ward 1, Ward 2 and Ward 3 - with boundaries available in a KML description. 
 There is a Elevated Storage Reservoir in Ward 3 which has an incoming bulk pipeline and an outgoing distribution pipeline network. Both the inlet and the outlet of the ELSR are metered with a flowmeter.
