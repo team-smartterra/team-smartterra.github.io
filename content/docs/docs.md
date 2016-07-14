@@ -182,7 +182,7 @@ A municipality delivers services over a large geographical area. For e.g. water 
 
 The SmartTerra platform will have a CityView module which will take in the GIS information and related datasets. The CityView module is for organizing the data and for a simple visualization. 
 
-Each of the network elements will need a KML "Placemark" to be uploaded. In GeoJSON it is called a Feature.   
+Each of the network elements will need a KML **Placemark** to be uploaded. In GeoJSON it is called a **Feature**.   
 
 ```
 <?xml version="1.0" encoding="iso-8859-1"?>
@@ -237,8 +237,12 @@ Each of the network elements will need a KML "Placemark" to be uploaded. In GeoJ
 The placemark will have attribute data which can be uploaded in an Excel file with a **Header Row** containing predefined terms and will look like this.
 
 WardID | WardName | WardPopulation | WardSupervisor | WardConsumption
------- | 
+------ | -------- | -------------- | -------------  | ---------------
+WARD1  | Ramnagar  | 10000         | Ram            |     5000
+WARD2  | Sitanagar | 20000         | Sita           |     10000
+WARD3  | Gitanagar | 30000         | Gita           |     15000
 
+The WardID header is what will tie the above attributes to the KML descriptions. This goes for other network elements as well. So, when we hover or click on network elements, the attribute information shows up and we can choose to modify/update it.
 
 CityData
 --------  
