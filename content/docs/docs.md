@@ -180,9 +180,11 @@ A municipality delivers services over a large geographical area. For e.g. water 
 
 The SmartTerra platform will have a CityView module which will take in the GIS information and related datasets. The CityView module is for organizing the data and for a simple visualization. 
 
-Each of the network elements will need KML to be uploaded. The KML for the wards would look like:
+Each of the network elements will need KML to be uploaded. The KML for the wards would look like [this file](https://www.dropbox.com/s/5jpwr3k5aep4zpg/wards.kml?dl=0) and the KML for the water connections would be:
+
 ```
-``` 
+```
+
 
 CityData
 --------  
