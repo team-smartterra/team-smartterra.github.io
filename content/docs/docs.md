@@ -135,16 +135,19 @@ Smarterhomes          | Bangalore based company with water meters.
  
 
 
-Recent efforts to bring the civic/urban GIS information on to the cloud:
+
+
+Water boards can also use recent efforts to bring the civic/urban GIS information on to the cloud:
+
 
 Company | Brief Description
 ------- | -----------------
-AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advan
-ced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
-LocalData             | LocalData makes digital tools to collect and analyze information about urban infrastructure. LocalData's code is available on GitHub 
-and can be leveraged for SmartTerra's backend as well as App. LocalData uses JavaScript and Node.js
+AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advanced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
+LocalData             | LocalData makes digital tools to collect and analyze information about urban infrastructure. LocalData's code is available on GitHub and can be leveraged for SmartTerra's backend as well as App. LocalData uses JavaScript and Node.js
 Neighborland          | Civic insights platform with a lot of mapping and survey capabilities. Based on Shareabouts, the popular open source tool for gathering insights directly on a map.
 Azavea                | Azavea is a B Corporation that creates civic geospatial software and data analytics for the web. 
+
+
 
 
 
