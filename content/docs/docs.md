@@ -118,7 +118,6 @@ The below are summaries for water analytics companies.
 Company | Brief Description
 ------- | -----------------
 IBM Intelligent Water | IBM® Intelligent Water software delivers smarter water management through insights from data to help utilities manage pressure, detect leaks, reduce water consumption, mitigate sewer overflow, and better manage their water infrastructure, assets and operations. This software uses advanced data management, visualization, correlation and collaboration technologies to transform the vast amounts of disparate data received from various devices (including metering systems), assets, systems and stakeholders into actionable information that can guide executive and operational decision-making. Intelligent Water is a water management platform that enhances infrastructure visibility to deliver an advanced level of situational awareness, event and incident management, informed decision-making and collaboration among stakeholders.
-AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advanced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
 Ayyeka                | Supplies water flow, quality, level, etc kits. Seems like primarily a hardware company. Ayyeka provides cyber-secure, plug-and-play, remote monitoring solutions designed for various markets
 Apana                 | (was Kirkland Analytics)  Smart sensors placed in select areas of your facility scan the water infrastructure around the clock capturing high resolution data down to the second. These sensors send data to a secure, cloud-hosted analytics engine that continuously looks for patterns and discrepancies to isolate waste events across 1000’s of failure points. When waste is detected, mechanical failures and operational breakdowns are identified at the source. Staff is instantly notified with actionable guidance. Alerts contain automated step- by-step instructions telling operators that there is a problem, where it is, and how to resolve it. Managers get insights to improve processes.
 Golagoon              | Lagoon sensors take the current meter infrastructure of the facility or commercial site and make it smart. The meters will be happy to join the Industrial Internet of Things. Lagoon's learning algorithms forecast your water usage, finds anomalies, such as leaks, and identifies inefficiencies, while providing insight and control over your water usage.
@@ -136,13 +135,25 @@ Smarterhomes          | Bangalore based company with water meters.
  
 
 
+Recent efforts to bring the civic/urban GIS information on to the cloud:
+
+Company | Brief Description
+------- | -----------------
+AmigoCloud            | AmigoCloud is a next-generation mapping technology company, providing mobile Geographic Information System (GIS) solutions with advan
+ced offline support. Available on Android and iOS devices, AmigoCloud makes geospatial data collection, administration, and sharing simple.
+LocalData             | LocalData makes digital tools to collect and analyze information about urban infrastructure. LocalData's code is available on GitHub 
+and can be leveraged for SmartTerra's backend as well as App. LocalData uses JavaScript and Node.js
+Neighborland          | Civic insights platform with a lot of mapping and survey capabilities. Based on Shareabouts, the popular open source tool for gathering insights directly on a map.
+Azavea                | Azavea is a B Corporation that creates civic geospatial software and data analytics for the web. 
+
+
 
 Smart Urban Water Platform
 ==========================
 
 As can be seen from the examples of Kakinada, Hyderabad and Nagpur, cities need an open data platform which provides a destination database to organize the various data sets involved in a urban water supply and to then make intelligent decisions based on the data. SmartTerra is such a platform and in the below sections we describe the platform and its features.
 
-The SmartTerra platform can be broken down into four chunks - CityView, CityData, CityApps and CityDevices. The platform is a combination of a features usually found in GIS platforms, ERP systems, IoT platforms and (big) data visualization and analytics. The platform is designed to work with SCADA systems, IOT devices, commonly used SQL databases, etc. 
+The SmartTerra platform can be broken down into four modules - CityView, CityData, CityApps and CityDevices. The platform is a combination of a features usually found in GIS platforms, ERP systems, IoT platforms and (big) data visualization and analytics. The platform is designed to work with SCADA systems, IOT devices, commonly used SQL databases, etc. 
 
 For the explanation of the features below, lets consider the network below.
 
@@ -151,10 +162,9 @@ For the explanation of the features below, lets consider the network below.
 CityView
 --------
 
-A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections. Customers, their meters/accounts and their feedback will be geographically spread out. The transmission/bulk and distribution networks will be geographically spread out 
+A municipality delivers services over a large geographical area. For e.g. water supply is a treatment, transmission and distribution of water from a (few) central location/s to numerous customer endpoints or connections. Customers, their meters/accounts and their feedback will be geographically spread out. The transmission/bulk and distribution networks will be geographically spread out. Most municipalities in India have mapped their network into GIS databases using tools such AutoCad, ArcGIS and more recently Google Earth. But this GIS information remains siloed and is often not available for daily operational use in the field. 
 
-Most municipalities in India have mapped their network into GIS databases using tools such AutoCad, ArcGIS and more recently Google Earth.  
-
+The SmartTerra platform will have a CityView module which will take in the GIS information and related datasets.
 
 
 CityData
